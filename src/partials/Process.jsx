@@ -16,7 +16,7 @@ const Process = () => {
       </p>
 
       {/* Process Steps */}
-      <div className="grid grid-cols-1 lg:grid-cols-2 border-t border-[#4E5826]">
+      <div className="grid grid-cols-1 lg:grid-cols-2">
         {/* Left Column */}
         <div className="border-b lg:border-b-0 lg:border-r border-[#4E5826]">
           {/* Consultation */}
@@ -49,7 +49,7 @@ const Process = () => {
         </div>
 
         {/* Right Column */}
-        <div className="border-t lg:border-t-0">
+        <div>
           {/* Treatment */}
           <div className="px-4 sm:px-6 md:px-10 py-10 border-b border-[#4E5826]">
             <h2 className="text-[#4E5826] text-2xl sm:text-3xl font-serif mb-2">

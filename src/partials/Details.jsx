@@ -55,10 +55,9 @@ const Details = () => {
       </div>
 
       {/* Right Side - Image */}
-      <div
-        className="hidden lg:block bg-cover bg-center"
-        style={{ backgroundImage: "url('/serum2.avif')" }}
-      ></div>
+      <div className="hidden lg:block">
+      <img src="/skincare/serum2.avif" alt="Serum" className="w-full h-auto object-cover" />
+</div>
     </div>
   );
 };
