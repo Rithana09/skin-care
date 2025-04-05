@@ -15,7 +15,7 @@ const AboutSection = () => {
         {/* Left Side - Image */}
         <div className="w-full lg:w-1/2 h-[300px] sm:h-[400px] md:h-[500px] lg:h-auto">
           <img
-            src="plant.avif"
+            src="/plant.avif"
             alt="J. Lopez spa treatment"
             className="w-full h-full object-cover"
           />

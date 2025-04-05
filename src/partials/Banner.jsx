@@ -10,7 +10,7 @@ const Banner = () => {
         </h1>
 
         <img
-          src="serum1.avif"
+          src="/serum1.avif"
           alt="Skincare product"
           className="w-[180px] h-[240px] sm:w-[200px] sm:h-[270px] md:w-[220px] md:h-[300px] lg:w-[250px] lg:h-[320px] object-cover rounded-lg shadow-lg"
         />
@@ -27,7 +27,7 @@ const Banner = () => {
       {/* Right Side - Model Image */}
       <div className="w-full lg:w-1/2 h-[300px] sm:h-[400px] md:h-[500px] lg:h-auto">
         <img
-          src="serum.avif"
+          src="/serum.avif"
           alt="Woman applying skincare"
           className="w-full h-full object-cover"
         />

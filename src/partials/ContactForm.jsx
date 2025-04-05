@@ -2,7 +2,7 @@ import React from "react";
 
 const ContactForm = () => {
   return (
-    <div className="w-screen bg-[#FFFDF6] min-h-screen">
+    <div className="w-full bg-[#FFFDF6] min-h-screen overflow-hidden">
       {/* Section Heading */}
       <div className="px-8 pt-12 lg:px-20">
         <h2 className="text-5xl font-serif font-bold text-[#4E5826]">Get In Touch</h2>
@@ -13,7 +13,7 @@ const ContactForm = () => {
         {/* Left Side - Image */}
         <div className="w-full lg:w-1/2 h-[300px] lg:h-auto">
           <img
-            src="facial.avif"
+            src="/facial.avif"
             alt="Contact Us"
             className="w-full h-full object-cover"
           />

@@ -56,7 +56,7 @@ const Details = () => {
 
       {/* Right Side - Image */}
       <div className="hidden lg:block">
-      <img src="/skincare/serum2.avif" alt="Serum" className="w-full h-auto object-cover" />
+      <img src="serum2.avif" alt="Serum" className="w-full h-auto object-cover" />
 </div>
     </div>
   );

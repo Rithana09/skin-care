@@ -30,7 +30,7 @@ const Story = () => {
       {/* Right Side - Image */}
       <div className="w-full lg:w-1/2 h-[300px] sm:h-[400px] md:h-[500px] lg:h-auto">
         <img
-          src="gel.avif"
+          src="/gel.avif"
           alt="Skincare Product"
           className="w-full h-full object-cover"
         />
