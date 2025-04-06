@@ -1,15 +1,17 @@
-import React from 'react';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import './App.css';
-import Header from './partials/Header';
-import Home from './pages/Home';
-import About from './pages/About';
-import Services from './pages/Services';
-import Contact from './pages/Contact';
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom"
+import "./App.css"
+import Header from "./partials/Header"
+import Home from "./pages/Home"
+import About from "./pages/About"
+import Services from "./pages/Services"
+import Contact from "./pages/Contact"
 
 function App() {
+  // Use the same base path as in vite.config.js
+  const basePath = "/skin-care"
+
   return (
-    <Router>
+    <Router basename={basePath}>
       <div>
         <Header />
         <Routes>
@@ -20,7 +22,8 @@ function App() {
         </Routes>
       </div>
     </Router>
-  );
+  )
 }
 
-export default App;
+export default App
+
