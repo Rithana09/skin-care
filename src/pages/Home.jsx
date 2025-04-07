@@ -17,9 +17,7 @@ const Home = () =>{
             <Process />
             <Details />
             <Footer />
-         
-           
-        </div>
+            </div>
     )
 }
 
